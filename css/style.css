@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  color: #fff;
+  font: 16px "Cabin", sans-serif;
+  overflow: hidden;
+  background: #333;
+  padding: 24px;
+}
+
+.wrapper{
+  padding: 9px;
+  background: beige;
+  color: brown;
+  text-decoration: underline;
+  font-size: 18px;
+  line-height: 1.2;
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  text-shadow: 2px 6px  #f0f;
+}
+
+.wrapper p{
+  width: 140px;
+  overflow: hidden;
+  background: #000;
+
+}
